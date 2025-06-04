@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../helper/screen_manager.dart';
 import 'border_radius_manager.dart';
 import 'colors_manager.dart';
@@ -8,7 +9,7 @@ abstract class ButtonStyleManager {
   static ButtonStyle primaryLightOutlined = const ButtonStyle().copyWith(
     foregroundColor: const MaterialStatePropertyAll(ColorsManager.primary),
     textStyle: MaterialStatePropertyAll(TextStyleManager.f16w600
-        .copyWith(color: ColorsManager.primary, fontFamily: 'Cairo')),
+        .copyWith(color: ColorsManager.primary, fontFamily:GoogleFonts.tajawal().fontFamily)),
     overlayColor:
         MaterialStatePropertyAll(ColorsManager.primary.withOpacity(0.03)),
     fixedSize: MaterialStatePropertyAll(Size.fromWidth(ScreenManager.width)),
@@ -20,7 +21,7 @@ abstract class ButtonStyleManager {
   static ButtonStyle primaryDarkOutlined = const ButtonStyle().copyWith(
     foregroundColor: const MaterialStatePropertyAll(ColorsManager.primaryDark),
     textStyle: MaterialStatePropertyAll(TextStyleManager.f16w600
-        .copyWith(color: ColorsManager.primaryDark, fontFamily: 'Cairo')),
+        .copyWith(color: ColorsManager.primaryDark, fontFamily: GoogleFonts.tajawal().fontFamily)),
     overlayColor:
     MaterialStatePropertyAll(ColorsManager.primaryDark.withOpacity(0.03)),
     fixedSize: MaterialStatePropertyAll(Size.fromWidth(ScreenManager.width)),
@@ -40,7 +41,7 @@ abstract class ButtonStyleManager {
       foregroundColor:
           const MaterialStatePropertyAll(ColorsManager.primaryDark),
       textStyle: MaterialStatePropertyAll(
-          TextStyleManager.f16w600.copyWith(fontFamily: 'SF')),
+          TextStyleManager.f16w600.copyWith(fontFamily: GoogleFonts.tajawal().fontFamily)),
       backgroundColor: const MaterialStatePropertyAll(Colors.transparent));
 
   static ButtonStyle secondaryForDialog = const ButtonStyle().copyWith(
@@ -53,6 +54,6 @@ abstract class ButtonStyleManager {
       foregroundColor:
           const MaterialStatePropertyAll(ColorsManager.primaryDark),
       textStyle: MaterialStatePropertyAll(
-          TextStyleManager.f16w600.copyWith(fontFamily: 'Cairo')),
+          TextStyleManager.f16w600.copyWith(fontFamily: GoogleFonts.tajawal().fontFamily)),
       backgroundColor: const MaterialStatePropertyAll(Colors.transparent));
 }
