@@ -7,7 +7,7 @@ import 'package:matrix_erp_test/features/checkout/presentation/views/checkout_pa
 import 'package:matrix_erp_test/features/checkout/presentation/views/checkout_view.dart';
 import 'package:matrix_erp_test/features/products/presentation/views/products_view.dart';
 
-import '../core/presentation/common_widgets/window_widget.dart';
+import '../common_widgets/window_widget.dart';
 
 class DesktopView extends StatelessWidget {
   const DesktopView({super.key});

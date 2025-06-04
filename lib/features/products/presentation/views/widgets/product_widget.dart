@@ -54,7 +54,7 @@ class ProductWidget extends ConsumerWidget {
                         onTap: (){
                           ref.read(cartProvider.notifier).addToCart(product);
                         },
-                        child: const Icon(Icons.add_circle_outline))
+                        child:  Icon(Icons.add_circle_outline, size: 12.sp,))
                   ],
                 )
               ],
