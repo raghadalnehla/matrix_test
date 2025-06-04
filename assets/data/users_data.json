@@ -1,0 +1,32 @@
+[
+  {
+    "id": "user_1",
+    "name": "Alice",
+    "phone": "+1111111111"
+  },
+  {
+    "id": "user_2",
+    "name": "Bob",
+    "phone": "+2222222222"
+  },
+  {
+    "id": "user_3",
+    "name": "Charlie",
+    "phone": "+3333333333"
+  },
+  {
+    "id": "user_4",
+    "name": "Alice 3",
+    "phone": "+1111111111"
+  },
+  {
+    "id": "user_5",
+    "name": "Bob 4",
+    "phone": "+2222222222"
+  },
+  {
+    "id": "user_6",
+    "name": "Charlie 2",
+    "phone": "+3333333333"
+  }
+]

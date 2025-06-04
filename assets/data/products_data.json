@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "code": "P1001",
+    "name": "Wireless Headphones",
+    "image": "https://i.ibb.co/3yj2JvkX/iphone-img.jpg",    "price": 99.99
+  },
+  {
+    "id": "2",
+    "code": "P1002",
+    "name": "Smartphone X",
+    "image": "https://i.ibb.co/3yj2JvkX/iphone-img.jpg",    "price": 799.99
+  },
+  {
+    "id": "3",
+    "code": "P1003",
+    "name": "Bluetooth Speaker",
+    "image": "https://i.ibb.co/3yj2JvkX/iphone-img.jpg",    "price": 59.50
+  },
+  {
+    "id": "4",
+    "code": "P1004",
+    "name": "Fitness Tracker",
+    "image": "https://i.ibb.co/3yj2JvkX/iphone-img.jpg",    "price": 89.95
+  },
+  {
+    "id": "5",
+    "code": "P1005",
+    "name": "Laptop Backpack",
+    "image": "https://i.ibb.co/3yj2JvkX/iphone-img.jpg",    "price": 45.00
+  }
+]
